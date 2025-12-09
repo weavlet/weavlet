@@ -1,0 +1,37 @@
+# Node dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Turbo cache
+.turbo/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Tests/coverage
+coverage/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Editors/IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Lockfiles from other managers
+package-lock.json
+yarn.lock
+

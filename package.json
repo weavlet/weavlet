@@ -1,0 +1,25 @@
+{
+  "name": "weavlet-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "test": "turbo run test",
+    "clean": "turbo run clean",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "publish-packages": "changeset publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.22.0",
+  "devDependencies": {
+    "@changesets/cli": "^2.29.8",
+    "turbo": "^2.6.3",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.15"
+  }
+}
