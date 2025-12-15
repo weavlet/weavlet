@@ -27,6 +27,7 @@ coverage/
 # Editors/IDE
 .vscode/
 .idea/
+.notes/
 
 # macOS
 .DS_Store
