@@ -2,6 +2,10 @@
 
 **Schema-driven user profile state for AI applications.**
 
+> ⚠️ **CAUTION**
+>
+> This package is currently in early development. The API is unstable and subject to change without notice. Use at your own risk.
+
 FactSheet maintains a live, structured profile for each user by extracting facts from conversations and resolving conflicts deterministically. Instead of searching through chat history, your AI reads current truths from a single JSON object.
 
 ```typescript
